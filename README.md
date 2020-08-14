@@ -9,7 +9,7 @@
 
 ## Clone this repository.
 
-## open the project containing folder and open a command line inside the folder and run 
+open the project containing folder and open a command line inside the folder and run 
 
 `npm start`
  
