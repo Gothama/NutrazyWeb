@@ -1,39 +1,4 @@
-/*
 
-TemplateMo 548 Training Studio
-
-https://templatemo.com/tm-548-training-studio
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -106,7 +71,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color: #7a7a7a;
+  color: white;
 }
 
 /* 
@@ -155,7 +120,7 @@ body {
 .section-heading h2 {
   font-size: 28px;
   font-weight: 800;
-  color: #232d39;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 0px;
@@ -602,6 +567,15 @@ banner
 .main-banner {
   position: relative;
 }
+#trainerProfileHeader {
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+
+}
+
 
 #bg-video {
     min-width: 100%;
@@ -621,7 +595,7 @@ banner
     background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -692,7 +666,7 @@ features
   margin-top: 0px;
   margin-bottom:  7px;
   letter-spacing: 0.25px;
-  color: #232d39;
+  color:white;
   font-size: 19px;
   font-weight: 600;
   text-transform: capitalize;
@@ -703,7 +677,7 @@ features
   display: inline-block;
   font-size: 13px;
   text-transform: uppercase;
-  color: #191df0;
+  color: white;
   font-weight: 500;
 }
 
@@ -1005,11 +979,11 @@ trainers
 contact
 --------------------------------------------- 
 */
-
+/*
 #contact-us {
-  /*margin-top: 140px;*/
+  margin-top: 140px;
 }
-
+*/
 #contact-us .container-fluid .col-lg-6 {
   padding: 0px;
 }
@@ -1264,6 +1238,7 @@ responsive
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
+  background-color: white;
 }
 
 .courses .course-content {
@@ -1325,4 +1300,27 @@ responsive
   font-size: 18px;
   color: #657a6d;
 }
+
+.info {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cta2 {
+  background:  url("../images/slide-01.jpg") fixed center center;
+  background-size: cover;
+  /*padding: 120px 0;*/
+  }
+
+  #signUp{
+    padding: 80px;
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 

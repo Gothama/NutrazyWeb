@@ -5,6 +5,7 @@ import  '../src/assets/css/bootstrap.min.css';
 import '../src/assets/css/font-awesome.css'; 
 import '../src/assets/css/ourcss.css'; 
 import '../src/assets/boxicons/css/boxicons.min.css'; 
+import '../src/assets/aos/aos.css'
 
 
 import Contact from "./components/contact.component";
@@ -14,6 +15,7 @@ import SignIn from "./components/signin.component";
 import SignUp from "./components/signup.component";
 import LandingPage from "./components/landingPage.component";
 import About from "./components/about.component";
+
 
 function App() {
   return (

@@ -35,12 +35,12 @@ return(
                
 
                         <ul className="nav">
-                            <li><Link to="/" className="active">Home</Link></li>
+                            <li><Link to="/">Home</Link></li>
                             <li ><a href="/about">About</a></li>
                             <li ><a href="/allTrainers">Classes</a></li>
                             <li><a href="/#">Schedules</a></li>
                             <li ><a href="/contact">Contact</a></li> 
-                            <li className="main-button"><a href="#">Sign Up</a></li>
+                            <li className="main-button"><a href="/signUp">Sign Up</a></li>
                         </ul>        
                         <a className='menu-trigger'>
                             <span>Menu</span>

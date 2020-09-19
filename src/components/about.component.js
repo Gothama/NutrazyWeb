@@ -13,7 +13,7 @@ return(
     <div>
     <Navbar/>
     <Header/>
-    <section className="section" id="features">
+    <section className="section cta2" id="features">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
