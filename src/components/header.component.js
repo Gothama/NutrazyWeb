@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import video from "../assets/images/gym-video.mp4"
 import AOS from "aos";
+import {Link} from 'react-router-dom';
 
 export default class Header extends Component{
     componentDidMount(){
@@ -19,7 +20,7 @@ return(
             <h6 data-aos="fade-up" data-aos-delay="200">work harder, get healthier</h6>
             <h2 data-aos="fade-up" data-aos-delay="200">easy with our <em><br/>trainers</em></h2>
             <div className="main-button scroll-to-section">
-                <a href="#features">Become a member</a>
+                <a href="/signIn">Become a member</a>
             </div>
         </div>
     </div>

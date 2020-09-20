@@ -11,21 +11,21 @@ export default class SignUp extends Component{
 return(
     <div>
     <div class="cta2">
-    <Navbar/>
+   
     
 
-    <section className="container " id="signUp"  >
+    <section className="container "  >
         <div className="container-fluid">
             <div className="row" >
             <div className="col-12" >
                     <div className="section-heading">
-                        <h2>Contact <em>Us</em></h2>
+                        <h2>Sign <em>Up</em></h2>
                         <img src={image1} alt="waves"/>
                         <p>Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this layout for your business website.</p>
                     </div>
             </div>
                 
-                <div className="col-12 signUp" style={{backgroundColor:"white", padding:"20px"}}>
+                <div className="col-12" id="signUp">
                     <div className="contact-form" >
                         <form id="contact" action="" method="post">
                           <div className="row">
@@ -69,7 +69,7 @@ return(
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br></br>
     </section>
     
     </div><Footer/></div>

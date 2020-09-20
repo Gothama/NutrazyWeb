@@ -19,13 +19,13 @@ return(
                     <div className="section-heading">
                         <h2>Contact <em>Us</em></h2>
                         <img src={image1} alt="waves"/>
-                        <p>Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this layout for your business website.</p>
+                        <p>Aute fugiat laboris non cillum culpa incididunt fugiat elit incididunt nulla fugiat esse sit..</p>
                     </div>
             </div>
                 <div className="col-lg-6 col-md-6 col-xs-12">
                     <div id="map">
                     <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3000601205854!2d79.91354531459311!3d6.973881594961881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2581cbe3d06f5%3A0x17c98045f95e4fe2!2sFaculty%20of%20Science%20University%20of%20Kelaniya!5e0!3m2!1sen!2slk!4v1594377283112!5m2!1sen!2slk" frameBorder="0" style={{border:'0', width: '100%', height: '600px' ,allowfullscreen:'allowfullscreen'}}></iframe>
-                      {/*<iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" style={{border:'0', width: '100%', height: '600px' ,allowfullscreen:'allowfullscreen'}} ></iframe>*/}
+                      
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-xs-12">

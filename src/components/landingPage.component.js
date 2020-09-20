@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import Navbar from "./navbar.component";
 import Header from "./header.component";
 import Footer from "./footer.component.js";
-
+import AllBlog from "./allBlog.component.js"
 
 export default class LandingPage extends Component{
   
@@ -12,9 +12,7 @@ return(
     <div>
     <Navbar/>
     <Header/>
-    <div>
-        <h1>This is the LandingPage page</h1>
-    </div>
+    <AllBlog/>
     <Footer/>
     </div>
 );

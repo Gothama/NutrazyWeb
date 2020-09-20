@@ -15,7 +15,7 @@ import SignIn from "./components/signin.component";
 import SignUp from "./components/signup.component";
 import LandingPage from "./components/landingPage.component";
 import About from "./components/about.component";
-
+import Blog from "./components/blog.component";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
     <Route path = "/about" exact component={About}/>
     <Route path = "/signIn" exact component={SignIn}/>
     <Route path = "/signUp" exact component={SignUp}/>
-    
+    <Route path = "/blog" exact component={Blog}/>
   
   </Router>
   );

@@ -1317,10 +1317,13 @@ responsive
   }
 
   #signUp{
-    padding: 80px;
+
   
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
   }
 
