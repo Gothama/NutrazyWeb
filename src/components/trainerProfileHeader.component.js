@@ -1,6 +1,5 @@
 
 import React, {Component} from 'react';
-//import video from "../assets/images/gym-video.mp4"
 import AOS from "aos";
 import backgroundim from '../assets/images/training-image-01.jpg'
 

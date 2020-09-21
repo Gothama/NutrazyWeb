@@ -1,8 +1,5 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
-import Header from "./header.component";
-import Footer from "./footer.component.js";
 import TrainerProfileHeader from "./trainerProfileHeader.component";
 import image1 from "../assets/images/line-dec.png"
 import TrainerImage from "../assets/images/trainers/trainer-1.jpg"
@@ -12,7 +9,7 @@ export default class TrainerProfile extends Component{
     render(){
 return(
     <div>
-    <Navbar/>
+   
     <TrainerProfileHeader/>
    <section className="cta2">
     <div className="container" style={{paddingTop:"100px"}}>
@@ -106,7 +103,7 @@ return(
 
       </div>
     </div></section>
-    <Footer/>
+    
     </div>
 );
 }

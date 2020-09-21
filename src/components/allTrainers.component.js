@@ -1,16 +1,13 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
 import Header from "./header.component";
-import Footer from "./footer.component.js";
 import TrainerImage from "../assets/images/trainers/trainer-1.jpg"
-import {Link} from 'react-router-dom';
 export default class AllTrainers extends Component{
   
     render(){
 return(
     <div>
-    <Navbar/>
+   
     <Header/>
     
     <section id="courses " className="courses cta2" style={{paddingBottom:"10px"}}><br></br>
@@ -181,7 +178,7 @@ return(
 <br></br>
       </div>
     </section>
-    <Footer/>
+
     </div>
 );
 }

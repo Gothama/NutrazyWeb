@@ -2,7 +2,6 @@
 import React, {Component} from 'react';
 import video from "../assets/images/gym-video.mp4"
 import AOS from "aos";
-import {Link} from 'react-router-dom';
 
 export default class Header extends Component{
     componentDidMount(){

@@ -16,11 +16,12 @@ import SignUp from "./components/signup.component";
 import LandingPage from "./components/landingPage.component";
 import About from "./components/about.component";
 import Blog from "./components/blog.component";
-
+import Navbar from './components/navbar.component';
+import Footer from './components/footer.component';
 function App() {
   return (
     <Router>
-      
+     <Navbar/> 
     <Route path = "/" exact component={LandingPage}/>
     <Route path = "/trainerProfile" exact component={TrainerProfile}/>
     <Route path = "/contact" exact component={Contact}/>
@@ -29,7 +30,7 @@ function App() {
     <Route path = "/signIn" exact component={SignIn}/>
     <Route path = "/signUp" exact component={SignUp}/>
     <Route path = "/blog" exact component={Blog}/>
-  
+    <Footer/>
   </Router>
   );
 }

@@ -1,8 +1,6 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
 import Header from "./header.component";
-import Footer from "./footer.component.js";
 import image1 from "../assets/images/line-dec.png"
 
 export default class Contact extends Component{
@@ -10,7 +8,7 @@ export default class Contact extends Component{
     render(){
 return(
     <div>
-    <Navbar/>
+ 
     <Header/>
     <section className="section cta2" id="contact-us" style={{paddingBottom:"50px"}}>
         <div className="container-fluid">
@@ -64,7 +62,7 @@ return(
             </div>
         </div>
     </section>
-    <Footer/>
+
     </div>
 );
 }

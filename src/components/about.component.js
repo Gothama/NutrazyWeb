@@ -1,19 +1,18 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
 import Header from "./header.component";
-import Footer from "./footer.component.js";
 import image from "../assets/images/features-first-icon.png"
 import image1 from "../assets/images/line-dec.png"
+
 
 export default class About extends Component{
   
     render(){
 return(
     <div>
-    <Navbar/>
+    
     <Header/>
-    <section className="section cta2" id="features">
+    <section className="section cta2" id="features" style={{paddingBottom:"10px"}}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
@@ -94,7 +93,7 @@ return(
             </div>
         </div>
     </section>
-    <Footer/>
+    
     </div>
     
 );

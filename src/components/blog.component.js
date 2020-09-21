@@ -1,8 +1,5 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
-import Header from "./header.component";
-import Footer from "./footer.component.js";
 import TrainerProfileHeader from "./trainerProfileHeader.component";
 import image1 from "../assets/images/line-dec.png"
 import blogImage from "../assets/images/foodBlogportrait.jpg"
@@ -11,16 +8,16 @@ export default class Blog extends Component{
   
     render(){
 return(
-    <div>
-    <Navbar/>
+    <div >
+   
     <TrainerProfileHeader/>
-   <section className="cta2">
+   <section className="cta2" style={{paddingBottom:"20px"}}>
     <div className="container" style={{paddingTop:"100px"}}>
     
         <div className="row" style={{paddingBottom:"100px"}}>
         <div className="col-5" >
                     <div className="section-heading" style={{}}>
-                        <h2 style={{color:"white"}}>Contact <em>Us</em></h2>
+                        <h2 style={{color:"white"}}>Blog <em>Sports</em></h2>
                         <img src={image1} alt="waves"/>
                         <p style={{color:"white",textAlign:"justify", fontSize:"20px"}}> Labore sit anim ad esse in sunt commodo
                         nisi anim. Sit nisi velit sunt ea dolore nulla. Cillum excepteur Lorem proident aliquip sit nisi commodo incididunt consequat elit. Dolor nostrud irure culpa nisi dolor do enim. Id est ut id esse. 
@@ -60,25 +57,18 @@ return(
         <div className="col-6 ">
             <div className="info">
                 <div style={{textAlign: 'justify'}}>
-                IBACK entertainment is a full-service event management firm 
-                based in Sri Lanka that was created by pairing together our 
-                passion for business and events. We bring a fresh, unique 
-                approach to the event management industry. Our team 
-                understands that a properly executed event can be leveraged to 
-                support an organization’s strategic vision, incorporated into a 
-                company’s marketing plan, or used to build networks and client loyalty. 
-                Event planning requires foresight, follow through and attention to detail. 
-                You need to see the big picture as well as the tiniest of details. 
-                You need Vision. Which is why we started IBACK entertainment. 
-                We wanted to create a company with the experience, skills, 
-                and knowledge to help any event, no matter how large or how small, 
-                fulfill its ultimate potential. We can help fledgling events get off the 
-                ground and existing events soar. We are flexible, fast, responsive, and 
-                reliable. And we always bring a fresh perspective.  IBACK entertainment 
-                approaches every project with meticulous attention to detail and obsessive 
-                precision. Regardless of size and scope, we treat your event like a business 
-                with clear strategic goals, defined milestones, and a comprehensive plan to ensure 
-                that your event is delivered on time and on budget.
+               Mollit do non consequat veniam eu ad nostrud. Labore fugiat dolor aute consectetur ad anim aliqua sint occaecat in. 
+               Aute aliquip ex officia sit incididunt ullamco officia. Consequat tempor voluptate qui tempor reprehenderit deserunt 
+               commodo do incididunt.
+
+Nisi mollit esse mollit sit aliquip commodo laboris ullamco non nostrud. Velit eiusmod enim tempor labore adipisicing enim laboris ex. 
+Veniam enim occaecat eu fugiat do consectetur in veniam Lorem. Mollit cillum proident do culpa anim dolor consectetur labore officia 
+exercitation labore nisi sint voluptate. Enim aliquip sint aliquip voluptate sunt anim.Officia in dolore aliqua officia enim fugiat 
+minim non aliquip do aliqua sunt nostrud. Dolore mollit duis minim est commodo consectetur est quis qui deserunt sunt dolore. Ipsum c
+onsectetur esse excepteur qui magna reprehenderit laboris minim quis anim.
+
+
+Eu velit laborum Lorem aliquip quis. Aliqua est minim exercitation laboris dolore reprehenderit id incididunt minim ullamco. Nisi qui cupidatat incididunt aliqua sit cillum duis sint reprehenderit sit labore dolor laboris esse. Voluptate velit proident minim culpa fugiat est esse commodo anim reprehenderit. Excepteur eiusmod culpa quis officia. Enim voluptate incididunt anim aliqua ut aute voluptate aliquip et. Magna ut velit minim ea minim Lorem qui commodo ullamco elit non proident aliquip minim.
 
                 </div>
             </div>
@@ -106,7 +96,7 @@ return(
 
       </div>
     </div></section>
-    <Footer/>
+  
     </div>
 );
 }

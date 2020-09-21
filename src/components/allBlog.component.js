@@ -1,10 +1,9 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
-import Header from "./header.component";
-import Footer from "./footer.component.js";
 import FoodImage1 from "../assets/images/nutrazyBlog.jpg"
 import FoodImage from "../assets/images/food.jpeg"
+import image1 from "../assets/images/line-dec.png"
+
 export default class AllBlog extends Component{
   
     render(){
@@ -13,7 +12,13 @@ return(
    
     <section id="courses " className="courses cta2" style={{paddingBottom:"10px"}}><br></br>
     <div className="container" data-aos="fade-up">
+    <div className="section-heading">
+            <h2>Contact <em>Us</em></h2>
+            <img src={image1} alt="waves"/>
+            <p>Aute fugiat laboris non cillum culpa incididunt fugiat elit incididunt nulla fugiat esse sit..</p>
+      </div>
       <div className="row" style={{paddingBottom:"50px"}}>
+        
       <div className="col-12 " data-aos="zoom-in" data-aos-delay="100">
           <div className="course-item">
             <img src={FoodImage1} class="img-fluid" alt="..."/>

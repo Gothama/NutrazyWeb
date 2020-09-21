@@ -1,8 +1,5 @@
 
 import React, {Component} from 'react';
-import Navbar from "./navbar.component";
-import Header from "./header.component";
-import Footer from "./footer.component.js";
 import image1 from "../assets/images/line-dec.png"
 
 
@@ -70,7 +67,7 @@ return(
         </div><br></br>
     </section>
     
-    </div><Footer/></div>
+    </div></div>
 );
 }
 } 
