@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e90c325a8aca15365ebb9922e515cd4",
+    "revision": "cd92d7385fd0b6c5fc2c254252e8f06e",
     "url": "/NutrazyWeb/index.html"
   },
   {
-    "revision": "8011bd235eca29c64b79",
-    "url": "/NutrazyWeb/static/css/main.9e70dc45.chunk.css"
+    "revision": "710ccc1be35d65abec01",
+    "url": "/NutrazyWeb/static/css/main.265bbfca.chunk.css"
   },
   {
-    "revision": "c494ce2f1a8720440780",
-    "url": "/NutrazyWeb/static/js/2.0ce70119.chunk.js"
+    "revision": "bfb1575d0aaf51664f7c",
+    "url": "/NutrazyWeb/static/js/2.39dcd356.chunk.js"
   },
   {
     "revision": "ffa35a34964860fdc97ed79ca9abd27c",
-    "url": "/NutrazyWeb/static/js/2.0ce70119.chunk.js.LICENSE.txt"
+    "url": "/NutrazyWeb/static/js/2.39dcd356.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8011bd235eca29c64b79",
-    "url": "/NutrazyWeb/static/js/main.d6ef17f5.chunk.js"
+    "revision": "710ccc1be35d65abec01",
+    "url": "/NutrazyWeb/static/js/main.a9c5f2f1.chunk.js"
   },
   {
     "revision": "6574e1112ed342b618ee",
