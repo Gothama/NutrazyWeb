@@ -12,7 +12,7 @@ export default class TrainerProfileHeader extends Component{
     render(){
 return(
     <section>
-    <div id ="trainerProfileHeader" className="d-flex align-items-center main-banner" style={{width: '100%',height: '100vh',backgroundImage:`url(${backgroundim})`,backgroundSize: 'cover',backgroundRepeat:'no-repeat'}}>
+    <div id ="trainerProfileHeader" className="d-flex align-items-center main-banner" style={{width: '100%',height: '80h',backgroundImage:`url(${backgroundim})`,backgroundSize: 'cover',backgroundRepeat:'no-repeat'}}>
         
     </div>
     </section>

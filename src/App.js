@@ -8,6 +8,7 @@ import '../src/assets/boxicons/css/boxicons.min.css';
 import '../src/assets/aos/aos.css'
 
 
+
 import Contact from "./components/contact.component";
 import TrainerProfile from "./components/trainerProfile.component";
 import AllTrainers from "./components/allTrainers.component";
@@ -18,6 +19,10 @@ import About from "./components/about.component";
 import Blog from "./components/blog.component";
 import Navbar from './components/navbar.component';
 import Footer from './components/footer.component';
+import MyAccount from './components/timeTablecomponent';
+import AllDieticians from './components/allDieticians.component';
+import AllBlog from "./components/allBlog.component";
+
 function App() {
   return (
     <Router>
@@ -30,6 +35,9 @@ function App() {
     <Route path = "/signIn" exact component={SignIn}/>
     <Route path = "/blog" exact component={Blog}/>
     <Route path = "/signUp" exact component={SignUp}/>
+    <Route path = "/account" exact component={MyAccount}/>
+    <Route path = "/allDieticians" exact component={AllDieticians}/>
+    <Route path = "/allBlogs" exact component={AllBlog}/>
      <Footer/>
     
   </Router>

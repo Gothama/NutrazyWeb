@@ -46,14 +46,14 @@ return(
                             <li><Link to="/">Home</Link></li>
                             <li ><a href="/about">About</a></li>
                             <li ><a href="/allTrainers"> Trainers</a></li>
-                            <li><a href="/#"> Dieticians</a></li>
-                            <li ><a href="/contact">Blogs</a></li> 
+                            <li><a href="/allDieticians"> Dieticians</a></li>
+                            <li ><a href="/allBlogs">Blogs</a></li> 
                             <li ><a href="/contact">Contact</a></li> 
                             {/*<li className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign Up</a></li>*/}
 
                              
-                                   { localStorage.getItem("loggedIn") ==="loggedIn"? <li ><a href="/contact">Account</a></li> : <li></li> }
-                                {    localStorage.getItem("loggedIn") ==="loggedIn"? <li onClick = {this.logout} className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign out</a></li>  :<li className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign Up</a></li>
+                                   { localStorage.getItem("loggedIn") ==="loggedIn"? <li ><a href="/account">Account</a></li> : <li></li> }
+                                {    localStorage.getItem("loggedIn") ==="loggedIn"? <li onClick = {this.logout} className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/">Sign out</a></li>  :<li className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign Up</a></li>
         
                              }   
                         </ul>        

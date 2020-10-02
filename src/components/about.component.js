@@ -3,14 +3,15 @@ import React, {Component} from 'react';
 import Header from "./header.component";
 import image from "../assets/images/features-first-icon.png"
 import image1 from "../assets/images/line-dec.png"
-import Navbar from "./navbar.component";
+
+
 
 export default class About extends Component{
   
     render(){
 return(
     <div>
-    <Navbar/>
+
     <Header/>
     <section className="section cta2" id="features" style={{paddingBottom:"10px"}}>
         <div className="container">
@@ -93,7 +94,7 @@ return(
             </div>
         </div>
     </section>
-    
+
     </div>
     
 );

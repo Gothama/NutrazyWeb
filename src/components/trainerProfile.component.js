@@ -32,7 +32,7 @@ return(
                     </div>
         </div> <div className="col-1"></div>
         
-        <div className="col-6 col-md-6 d-flex align-items-stretch courses " data-aos="zoom-in" data-aos-delay="100" style={{backgroundColor:"white"}}>
+        <div className="col-6 align-items-stretch courses " data-aos="zoom-in" data-aos-delay="100" style={{marginTop:"-20%"}}>
             <div className="course-item" style={{paddingTop:"10px"}}>
               <img src={TrainerImage} class="img-fluid" alt="..."/>
               <div className="course-content">

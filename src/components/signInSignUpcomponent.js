@@ -3,10 +3,7 @@ import video from "../assets/images/gym-video.mp4"
 import AOS from "aos";
 import '../assets/css/signInSignUp.css'
 
-import  '../assets/css/bootstrap.min.css'; 
-import '../assets/css/font-awesome.css'; 
-import '../assets/css/ourcss.css'; 
-import '../assets/boxicons/css/boxicons.min.css'; 
+
 
 
 

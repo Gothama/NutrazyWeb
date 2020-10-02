@@ -21,7 +21,7 @@ return(
     <section id="courses " className="courses cta2" style={{paddingBottom:"10px", backgroundImage:`url(${Background})`}}><br></br>
       <div className="container" data-aos="fade-up">
       <div className="section-heading">
-            <h2>Contact <em>Us</em></h2>
+            <h2>Our <em>Trainers</em></h2>
             <img src={image1} alt="waves"/>
             <p>Aute fugiat laboris non cillum culpa incididunt fugiat elit incididunt nulla fugiat esse sit..</p>
       </div>
