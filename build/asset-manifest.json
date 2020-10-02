@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/NutrazyWeb/static/css/main.9e70dc45.chunk.css",
+    "main.js": "/NutrazyWeb/static/js/main.50cf5d7f.chunk.js",
+    "main.js.map": "/NutrazyWeb/static/js/main.50cf5d7f.chunk.js.map",
+    "runtime-main.js": "/NutrazyWeb/static/js/runtime-main.3831be8d.js",
+    "runtime-main.js.map": "/NutrazyWeb/static/js/runtime-main.3831be8d.js.map",
+    "static/js/2.0ce70119.chunk.js": "/NutrazyWeb/static/js/2.0ce70119.chunk.js",
+    "static/js/2.0ce70119.chunk.js.map": "/NutrazyWeb/static/js/2.0ce70119.chunk.js.map",
+    "index.html": "/NutrazyWeb/index.html",
+    "precache-manifest.34ff396ff6cbc29500ab6b349797410b.js": "/NutrazyWeb/precache-manifest.34ff396ff6cbc29500ab6b349797410b.js",
+    "service-worker.js": "/NutrazyWeb/service-worker.js",
+    "static/css/main.9e70dc45.chunk.css.map": "/NutrazyWeb/static/css/main.9e70dc45.chunk.css.map",
+    "static/js/2.0ce70119.chunk.js.LICENSE.txt": "/NutrazyWeb/static/js/2.0ce70119.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/NutrazyWeb/static/media/boxicons.aeaf4ee6.woff2",
+    "static/media/ourcss.css": "/NutrazyWeb/static/media/slide-01.0a630762.jpg",
+    "static/media/font-awesome.css": "/NutrazyWeb/static/media/fontawesome-webfont.f7c2b4b7.eot",
+    "static/media/food.jpeg": "/NutrazyWeb/static/media/food.acbad608.jpeg",
+    "static/media/foodBlogportrait.jpg": "/NutrazyWeb/static/media/foodBlogportrait.b9f6fc52.jpg",
+    "static/media/gym-video.mp4": "/NutrazyWeb/static/media/gym-video.ae250877.mp4",
+    "static/media/nutrazyBlog.jpg": "/NutrazyWeb/static/media/nutrazyBlog.625aee00.jpg",
+    "static/media/p1.png": "/NutrazyWeb/static/media/p1.4a1c15db.png",
+    "static/media/schedule-bg.jpg": "/NutrazyWeb/static/media/schedule-bg.02e36482.jpg",
+    "static/media/trainer-1.jpg": "/NutrazyWeb/static/media/trainer-1.6199a2ce.jpg",
+    "static/media/training-image-01.jpg": "/NutrazyWeb/static/media/training-image-01.5a6c841c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3831be8d.js",
+    "static/js/2.0ce70119.chunk.js",
+    "static/css/main.9e70dc45.chunk.css",
+    "static/js/main.50cf5d7f.chunk.js"
+  ]
+}
