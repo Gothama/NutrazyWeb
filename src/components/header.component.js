@@ -17,7 +17,7 @@ return(
     <div className="video-overlay header-text">
         <div className="caption" >
             <h6 data-aos="fade-up" data-aos-delay="200">work harder, get healthier</h6>
-            <h2 data-aos="fade-up" data-aos-delay="200">easy with our <em><br/>trainers</em></h2>
+            <h2 data-aos="fade-up" data-aos-delay="200">easy with our <em><br/>professionals</em></h2>
             <div className="main-button scroll-to-section">
                 <a href="/signIn">Become a member</a>
             </div>

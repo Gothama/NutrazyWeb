@@ -12,7 +12,7 @@ import Contact from "./components/contact.component";
 import TrainerProfile from "./components/trainerProfile.component";
 import AllTrainers from "./components/allTrainers.component";
 import SignIn from "./components/signin.component";
-import SignUp from "./components/signup.component";
+import SignUp from "./components/signInSignUpcomponent";
 import LandingPage from "./components/landingPage.component";
 import About from "./components/about.component";
 import Blog from "./components/blog.component";
@@ -21,16 +21,17 @@ import Footer from './components/footer.component';
 function App() {
   return (
     <Router>
-     <Navbar/> 
+     {/*<Navbar/> */}
     <Route path = "/" exact component={LandingPage}/>
     <Route path = "/trainerProfile" exact component={TrainerProfile}/>
     <Route path = "/contact" exact component={Contact}/>
     <Route path = "/allTrainers" exact component={AllTrainers}/>
     <Route path = "/about" exact component={About}/>
     <Route path = "/signIn" exact component={SignIn}/>
-    <Route path = "/signUp" exact component={SignUp}/>
     <Route path = "/blog" exact component={Blog}/>
-    <Footer/>
+    <Route path = "/signUp" exact component={SignUp}/>
+     {/*<Footer/> */}
+    
   </Router>
   );
 }

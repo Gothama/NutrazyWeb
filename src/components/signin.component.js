@@ -4,7 +4,10 @@ import image1 from "../assets/images/line-dec.png"
 
 
 export default class SignIn extends Component{
-  
+  logout() {
+   localStorage.setItem("loggedIn" , "logginIn");
+   window.location.href = '/';
+}
     render(){
 return(
     <div>
@@ -22,44 +25,28 @@ return(
                 
                 <div className="col-12" id="signUp">
                     <div className="contact-form" >
-                        <form id="contact" action="" method="post">
+                        <form id="contact" method="post" >
                           <div className="row">
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-6">
                               <fieldset>
                                 <input name="name" type="text" id="name" placeholder="Your Name*" required=""/>
-                              </fieldset>
-                            </div>
-                            <div className="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your Name*" required=""/>
-                              </fieldset>
-                            </div>
-                            <div className="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your Name*" required=""/>
-                              </fieldset>
-                            </div>
-                            <div className="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required=""/>
-                              </fieldset>
-                            </div>
-                            <div className="col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="subject" type="text" id="subject" placeholder="Subject"/>
-                              </fieldset>
-                            </div>
-                            <div className="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
-                              </fieldset>
-                            </div>
-                            <div className="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" className="main-button">Send Message</button>
                               </fieldset>
                             </div>
                           </div>
+                            <div className="row">
+                            <div className="col-6">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required=""/>
+                              </fieldset>
+                            </div></div>
+                            <div className="row">
+                            <div className="col-6">
+                              <fieldset>
+                                <button type="button" id="form-submit" className="main-button" onClick={this.logout}>Send Message</button>
+                              </fieldset>
+                              </div>
+                            </div>
+                         
                         </form>
                     </div>
                 </div>

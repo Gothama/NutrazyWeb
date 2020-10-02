@@ -20,12 +20,14 @@ return(
                         <h2 style={{color:"white"}}>Contact <em>Us</em></h2>
                         <img src={image1} alt="waves"/>
                         <p style={{color:"white",textAlign:"justify", fontSize:"20px"}}> Labore sit anim ad esse in sunt commodo
-                        nisi anim. Sit nisi velit sunt ea dolore nulla. Cillum excepteur Lorem proident aliquip sit nisi commodo incididunt consequat elit. Dolor nostrud irure culpa nisi dolor do enim. Id est ut id esse. 
+                        nisi anim. Sit nisi velit sunt ea dolore nulla. Cillum excepteur Lorem proident aliquip sit nisi commodo 
+                        incididunt consequat elit. Dolor nostrud irure culpa nisi dolor do enim. Id est ut id esse. 
                         Occaecat velit voluptate incididunt exercitation consectetur laborum labore ex cupidatat commodo sint 
                         incididunt est qui.Aute id tempor ad ut excepteur amet exercitation eiusmod. Do Lorem in quis tempor 
                         officia enim do culpa aliquip adipisicing sunt exercitation. Proident do minim aliqua officia anim velit 
                         labore voluptate velit. Cupidatat commodo tempor labore adipisicing officia laboris magna occaecat et do nisi 
-                        culpa. Tempor sit duis veniam eiusmod duis ad in quis exercitation laboris dolor sunt. Do qui eiusmod proident ullamco 
+                        culpa. Tempor sit duis veniam eiusmod duis ad in quis exercitation laboris dolor sunt. Do qui eiusmod proident 
+                        ullamco 
                         mollit magna aliqua excepteur sint qui officia consectetur.  </p>
                     </div>
         </div> <div className="col-1"></div>

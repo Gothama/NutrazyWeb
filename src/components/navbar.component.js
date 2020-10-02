@@ -22,9 +22,14 @@ export default class Navbar extends Component{
         } else {
           $("header").removeClass("background-header");
         }
-      });
-      
+      });}
+      logout() {
+        localStorage.clear();
+        window.location.href = '/';
+        localStorage.setItem("username" , null);
+        localStorage.setItem("loggedIn" , null);
     }
+    
     
     render(){
 return(
@@ -40,11 +45,17 @@ return(
                         <ul className="nav">
                             <li><Link to="/">Home</Link></li>
                             <li ><a href="/about">About</a></li>
-                            <li ><a href="/allTrainers">Classes</a></li>
-                            <li><a href="/#">Schedules</a></li>
+                            <li ><a href="/allTrainers"> Trainers</a></li>
+                            <li><a href="/#"> Dieticians</a></li>
+                            <li ><a href="/contact">Blogs</a></li> 
                             <li ><a href="/contact">Contact</a></li> 
-                            <li className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign Up</a></li>
-                            
+                            {/*<li className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign Up</a></li>*/}
+
+                             
+                                   { localStorage.getItem("loggedIn") ==="loggedIn"? <li ><a href="/contact">Account</a></li> : <li></li> }
+                                {    localStorage.getItem("loggedIn") ==="loggedIn"? <li onClick = {this.logout} className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign out</a></li>  :<li className="main-button" data-aos="fade-up" data-aos-delay="200"><a href="/signUp">Sign Up</a></li>
+        
+                             }   
                         </ul>        
                         <a className='menu-trigger'>
                             <span>Menu</span>

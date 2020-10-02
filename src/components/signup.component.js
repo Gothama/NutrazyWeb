@@ -4,7 +4,10 @@ import React, {Component} from 'react';
 import image1 from "../assets/images/line-dec.png"
 
 export default class SignUp extends Component{
-  
+  logout() {
+    localStorage.setItem("loggedIn" , "loggedIn");
+    window.location.href = '/';
+ }
     render(){
 return(
     <div>
@@ -59,7 +62,7 @@ return(
                             </div>
                             <div className="col-lg-12">
                               <fieldset>
-                                <button type="submit" id="form-submit" className="main-button">Send Message</button>
+                              <button type="button" id="form-submit" className="main-button" onClick={this.logout}>Send Message</button>
                               </fieldset>
                             </div>
                           </div>
