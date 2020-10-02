@@ -21,7 +21,7 @@ import Footer from './components/footer.component';
 function App() {
   return (
     <Router>
-     {/*<Navbar/> */}
+    <Navbar/>
     <Route path = "/" exact component={LandingPage}/>
     <Route path = "/trainerProfile" exact component={TrainerProfile}/>
     <Route path = "/contact" exact component={Contact}/>
@@ -30,7 +30,7 @@ function App() {
     <Route path = "/signIn" exact component={SignIn}/>
     <Route path = "/blog" exact component={Blog}/>
     <Route path = "/signUp" exact component={SignUp}/>
-     {/*<Footer/> */}
+     <Footer/>
     
   </Router>
   );
