@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NutrazyWeb/static/css/main.9e70dc45.chunk.css",
-    "main.js": "/NutrazyWeb/static/js/main.50cf5d7f.chunk.js",
-    "main.js.map": "/NutrazyWeb/static/js/main.50cf5d7f.chunk.js.map",
+    "main.js": "/NutrazyWeb/static/js/main.d6ef17f5.chunk.js",
+    "main.js.map": "/NutrazyWeb/static/js/main.d6ef17f5.chunk.js.map",
     "runtime-main.js": "/NutrazyWeb/static/js/runtime-main.3831be8d.js",
     "runtime-main.js.map": "/NutrazyWeb/static/js/runtime-main.3831be8d.js.map",
     "static/js/2.0ce70119.chunk.js": "/NutrazyWeb/static/js/2.0ce70119.chunk.js",
     "static/js/2.0ce70119.chunk.js.map": "/NutrazyWeb/static/js/2.0ce70119.chunk.js.map",
     "index.html": "/NutrazyWeb/index.html",
-    "precache-manifest.34ff396ff6cbc29500ab6b349797410b.js": "/NutrazyWeb/precache-manifest.34ff396ff6cbc29500ab6b349797410b.js",
+    "precache-manifest.1facde113a6611d4cfe9440a0264f2c9.js": "/NutrazyWeb/precache-manifest.1facde113a6611d4cfe9440a0264f2c9.js",
     "service-worker.js": "/NutrazyWeb/service-worker.js",
     "static/css/main.9e70dc45.chunk.css.map": "/NutrazyWeb/static/css/main.9e70dc45.chunk.css.map",
     "static/js/2.0ce70119.chunk.js.LICENSE.txt": "/NutrazyWeb/static/js/2.0ce70119.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.3831be8d.js",
     "static/js/2.0ce70119.chunk.js",
     "static/css/main.9e70dc45.chunk.css",
-    "static/js/main.50cf5d7f.chunk.js"
+    "static/js/main.d6ef17f5.chunk.js"
   ]
 }

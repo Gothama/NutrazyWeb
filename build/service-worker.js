@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NutrazyWeb/precache-manifest.34ff396ff6cbc29500ab6b349797410b.js"
+  "/NutrazyWeb/precache-manifest.1facde113a6611d4cfe9440a0264f2c9.js"
 );
 
 self.addEventListener('message', (event) => {
