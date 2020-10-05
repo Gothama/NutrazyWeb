@@ -14,7 +14,7 @@ return(
           <div className="course-item">
             <img src={this.props.foodImage} class="img-fluid" alt="..."/>
             <div className="course-content">
-              <h3><a href="course-details.html">{this.props.title}</a></h3>
+              <h3><a href="/blog">{this.props.title}</a></h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div className="trainer d-flex justify-content-between align-items-center">
                 <div className="trainer-profile d-flex align-items-center">

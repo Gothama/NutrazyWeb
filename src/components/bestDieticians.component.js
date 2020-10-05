@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
+
 import TrainerTile from './trainerTile.component';
 import image1 from "../assets/images/line-dec.png"
-import Navbar from "./navbar.component";
-import Footer from "./footer.component";
-export default class AllDieticians extends Component{
+
+export default class BestDieticians extends Component{
   
     render(){
 return(
     <div>
 
-  <Navbar/>
-     {/* <Header/>*/}
+
     
     
     <section id="courses " className="courses cta2" style={{paddingBottom:"10px"}}><br></br>

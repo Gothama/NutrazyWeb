@@ -6,8 +6,8 @@ import '../src/assets/css/font-awesome.css';
 import '../src/assets/css/ourcss.css'; 
 import '../src/assets/boxicons/css/boxicons.min.css'; 
 import '../src/assets/aos/aos.css'
-
-
+import '../src/assets/boxicons/css/boxicons.min.css'; 
+ 
 
 import Contact from "./components/contact.component";
 import TrainerProfile from "./components/trainerProfile.component";
@@ -17,8 +17,8 @@ import SignUp from "./components/signup.component";
 import LandingPage from "./components/landingPage.component";
 import About from "./components/about.component";
 import Blog from "./components/blog.component";
-import Navbar from './components/navbar.component';
-import Footer from './components/footer.component';
+//import Navbar from './components/navbar.component';
+//import Footer from './components/footer.component';
 import MyAccount from './components/timeTablecomponent';
 import AllDieticians from './components/allDieticians.component';
 import AllBlog from "./components/allBlog.component";
@@ -26,7 +26,7 @@ import AllBlog from "./components/allBlog.component";
 function App() {
   return (
     <Router>
-    <Navbar/>
+    {/*<Navbar/>*/}
     <Route path = "/" exact component={LandingPage}/>
     <Route path = "/trainerProfile" exact component={TrainerProfile}/>
     <Route path = "/contact" exact component={Contact}/>
@@ -38,7 +38,7 @@ function App() {
     <Route path = "/account" exact component={MyAccount}/>
     <Route path = "/allDieticians" exact component={AllDieticians}/>
     <Route path = "/allBlogs" exact component={AllBlog}/>
-     <Footer/>
+     {/*<Footer/>*/}
     
   </Router>
   );

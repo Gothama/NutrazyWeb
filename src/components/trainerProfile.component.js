@@ -17,7 +17,7 @@ return(
         <div className="row" style={{paddingBottom:"100px"}}>
         <div className="col-5" >
                     <div className="section-heading" style={{}}>
-                        <h2 style={{color:"white"}}>Contact <em>Us</em></h2>
+                        <h2 style={{color:"white"}}>John <em>Peter</em></h2>
                         <img src={image1} alt="waves"/>
                         <p style={{color:"white",textAlign:"justify", fontSize:"20px"}}> Labore sit anim ad esse in sunt commodo
                         nisi anim. Sit nisi velit sunt ea dolore nulla. Cillum excepteur Lorem proident aliquip sit nisi commodo 

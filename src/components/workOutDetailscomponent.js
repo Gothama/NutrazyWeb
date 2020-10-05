@@ -7,12 +7,26 @@ export default class WorkOutDetails extends Component{
     componentDidMount(){
         AOS.init({duration: 1000,
             once:true});
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
     }
     
     render(){
 return(
     <section>
-    <div id="accordion">
+   {/* <div id="accordion">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
@@ -56,6 +70,38 @@ return(
       </div>
     </div>
   </div>
+</div>*/}
+<button class="accordion">Section 1</button>
+<div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapsed" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapsed" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
 </div>
     </section>
 );

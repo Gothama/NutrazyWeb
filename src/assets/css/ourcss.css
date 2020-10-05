@@ -1342,3 +1342,26 @@ responsive
   border-radius: 5px;
   }
 
+
+
+#slideshow {
+ 
+  position: relative;
+  width: 240px;
+  height: 240px;
+ 
+  
+}
+
+.div1 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+}
+img1{
+ 
+  max-width: 240px;
+  max-height: 240px;
+ /* display: block;  remove extra space below image */
+}
+
